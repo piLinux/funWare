@@ -62,6 +62,8 @@ Arduino Uno pin 5V --> Atmega328p-pu pin VCC (pin 7)
 
 Arduino Uno pin GND --> Atmega328p-pu pin GND (pin 8)
 
+And between Atmega328p-pu RESET and GND pins, we will add a 10uF capacitor.
+
 ![Connection from Arduino Uno to Atmega328p-pu](Wiring.jpg)
 
 
