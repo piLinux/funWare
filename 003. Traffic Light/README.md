@@ -9,10 +9,10 @@ You can use an Arduino Uno as an ISP to burn your microcontroller if you don't h
 
 ### Solution
 
-We can have multiple schematics and can have different approach to write an smart program for this simple task. I will use C programming language.
+We can have multiple schematics and can have different approaches to write a smart program for this simple task. I will use C programming language.
 You should use your own preferred programming language and coding style.
 
-__In this project time between Red and Yellow, Yellow and Green and Green and Red is 1 second. You can set your own time in your code.__ 
+__For this project I have chosen 1 second as the time between the blinks of Red and Yellow, Yellow and Green and Green and Red. You can set your own time in your code.__ 
 
 #### Schematic 1 (Common Cathode)
 
