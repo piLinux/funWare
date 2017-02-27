@@ -14,11 +14,13 @@ int main(void)
 	
 	while(1)
 	{
-		PORTD = 0b11111011;   // PD2 Active LOW
+		PORTD = 0b11111011;   // Only PD2 Active LOW
 		_delay_ms(1000);
-		PORTD = 0b11110111;   // PD3 Active LOW
+		PORTD = 0b11110111;   // Only PD3 Active LOW
 		_delay_ms(1000);
-		PORTD = 0b11101111;   // PD4 Active LOW
+		PORTD = 0b11101111;   // Only PD4 Active LOW
+		_delay_ms(1000);
+		PORTD = 0b11110111;   // Only PD3 Active LOW
 		_delay_ms(1000);
 	}
     
