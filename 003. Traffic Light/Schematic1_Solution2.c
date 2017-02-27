@@ -19,7 +19,9 @@ int main(void)
 		PORTD = (1 << PD3);
 		_delay_ms(1000);
 		PORTD = (1 << PD4);
-		_delay_ms(1000);		
+		_delay_ms(1000);
+		PORTD = (1 << PD3);
+		_delay_ms(1000);
 	}
   
     return 0;
