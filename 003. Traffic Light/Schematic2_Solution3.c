@@ -22,6 +22,9 @@ int main(void)
 			PORTD = ~(0b00000001 << i);
 			_delay_ms(1000);
 		}
+		
+			PORTD = ~(0b00000001 << 3);
+			_delay_ms(1000);
 
 	}
     
