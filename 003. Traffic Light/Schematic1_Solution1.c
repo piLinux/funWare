@@ -14,11 +14,13 @@ int main(void)
 
 	while(1)
 	{
-		PORTD = 0b00000100;   // Only PD2 Active HIGH
-		_delay_ms(1000);    // delay 1 sec
-		PORTD = 0b00001000;   // Only PD3 Active HIGH
+		PORTD = 0b00000100;	// Only PD2 (RED) Active HIGH
+		_delay_ms(1000);	// delay 1 sec
+		PORTD = 0b00001000;	// Only PD3 (YELLOW) Active HIGH
 		_delay_ms(1000);
-		PORTD = 0b00010000;   // Only PD4 Active HIGH
+		PORTD = 0b00010000;	// Only PD4 (GREEN) Active HIGH
+		_delay_ms(1000);
+		PORTD = 0b00001000;	// Only PD3 (YELLOW) Active HIGH
 		_delay_ms(1000);
 	}
     return 0;
