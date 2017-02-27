@@ -23,19 +23,13 @@ __For this project I have chosen 1 second time delay. You should set your own ti
 
 ![Traffic Light Schematic Common Cathode](TrafficLightSchematicCommonCathode.jpg)
 
-[Solution 1](Schematic1_Solution1.c)
-[Solution 2](Schematic1_Solution2.c)
-[Solution 3](Schematic1_Solution3.c)
-[Solution 4](Schematic1_Solution4.c)
+[Solution 1](Schematic1_Solution1.c) | [Solution 2](Schematic1_Solution2.c) | [Solution 3](Schematic1_Solution3.c) | [Solution 4](Schematic1_Solution4.c)
 
 #### Schematic 2 (Common Anode)
 
 ![Traffic Light Schematic Common Anode](TrafficLightSchematicCommonAnode.jpg)
 
-[Solution 1](Schematic2_Solution1.c)
-[Solution 2](Schematic2_Solution2.c)
-[Solution 3](Schematic2_Solution3.c)
-[Solution 4](Schematic2_Solution4.c)
+[Solution 1](Schematic2_Solution1.c) | [Solution 2](Schematic2_Solution2.c) | [Solution 3](Schematic2_Solution3.c) | [Solution 4](Schematic2_Solution4.c)
 
 ## Arduino Project
 
@@ -49,4 +43,4 @@ Arduino Uno pin 11 -> green LED
 
 [Arduino Sketch](ArduinoUnoProject.ino)
 
-#### Final Output [External link](https://vimeo.com/205972612)
+#### Final Output:    [External link](https://vimeo.com/205972612)
