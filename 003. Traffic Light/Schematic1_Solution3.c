@@ -22,7 +22,7 @@ int main(void)
 			_delay_ms(1000);
 		}
 		
-		PORTD = (0b00000001 << 3);
+			PORTD = (0b00000001 << 3);
 			_delay_ms(1000);
 		
 	}
