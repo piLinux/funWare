@@ -38,7 +38,9 @@ __For this project I have chosen 1 second time delay. You should set your own ti
 ![Traffic Light With Arduino Uno](TrafficLightWithArduinoUno.jpg)
 
 Arduino Uno pin 9 -> red LED
+
 Arduino Uno pin 10 -> yellow LED
+
 Arduino Uno pin 11 -> green LED
 
 [Arduino Sketch](ArduinoUnoProject.ino)
